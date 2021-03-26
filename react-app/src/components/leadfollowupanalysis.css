@@ -1,0 +1,25 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+.tab_font{
+    font-size:smaller;
+    width:250px; 
+    height:200px;
+}
+
+.tab_heading{
+    font-size:smaller;
+    height: 200px;}
+ .table1 td, .table1 th {
+    padding: .35rem;}
+ .table1{
+     height:200px !important;
+     border:1px;
+ }
+ /* .table1 thead th {
+    vertical-align:middle} */
+.card1{height: 360px;}
+.table1 thead th {
+    vertical-align: middle;}

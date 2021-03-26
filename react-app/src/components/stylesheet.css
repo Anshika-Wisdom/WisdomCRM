@@ -1,0 +1,291 @@
+.sticky{
+background-color:  #f7f7f7 !important;
+margin: 0;
+border: 0;
+font-size: 100%;
+/* font: inherit; */
+/* vertical-align: baseline; */
+/* display: flex; */
+padding: 13px;
+border-bottom: 1px solid rgb(220, 221, 221);
+}
+
+.header{
+  top: 63px !important;
+}
+
+.pencil {
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.task{
+  top: 100px !important;
+  height: auto;
+  background-color: #f7f7f7 !important;
+}
+
+.listTask{
+  top: 60px !important;
+  height: auto;
+  background-color: #f7f7f7 !important;
+  border: none !important;
+}
+
+.task:hover .plus{
+  display: block;
+}
+
+.stage {
+  margin: 3px !important;
+}
+
+.pipe{
+  padding-left: 2rem !important;
+}
+
+.stageColor {
+  background-color: #f7f7f7 !important;
+}
+
+.arrow {
+  padding: 0px !important;
+  background-color: #f7f7f7 !important;
+  border-top: 1px solid rgb(220, 221, 221) !important;
+  border-bottom: 1px solid rgb(220, 221, 221) !important;
+}
+
+.stageMargin {
+  font-size: small;
+  margin-left: 15px !important;
+  padding: 2px !important;
+}
+
+.trash {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0px 4px;
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  color: #f70a21;
+  height: fit-content;
+  text-align: center;
+}
+
+.phone {
+  cursor: pointer;
+  /* background: #408cff; */
+  border-radius: 50%;
+  padding: 0px 4px;
+  position: absolute;
+  right: 25%;
+  top: 30%;
+  color: black;
+  height: fit-content;
+  text-align: center;
+  color: black !important;
+}
+
+.ellipsis{
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0px 4px;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  color: black;
+  height: fit-content;
+  text-align: center;
+}
+
+.dropEllipsis{
+  top: 15%;
+  opacity: 1;
+  background-color:#f7f7f7;
+  position: absolute;
+  right: 5%;
+  border: none !important;
+  padding: 5px;
+}
+
+.plus {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f7f7f7 !important;
+  /* visibility: hidden; */
+  display: none;
+}
+
+.plus:hover {
+  padding: 10px;
+  background-color: #e5e5e5 !important;
+  text-align: center;
+  border: 1px;
+  cursor: pointer;
+  /* display: inline-flex; */
+  border-radius: 4px;
+  width: 100%;
+  /* flex: 1 1 0%; */
+  background: #e5e5e5;
+  /* visibility: visible; */
+}
+
+.space {
+  font-size: small !important;
+  font-weight: bold !important;
+  margin-left: 15px !important;
+}
+
+.list{
+  top: 90px !important;
+  background-color: white;
+  padding: 0px !important;
+  border-top: 1px solid rgb(220, 221, 221) !important;
+  border-bottom: 1px solid rgb(220, 221, 221) !important;
+}
+
+/* .pageMask {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+.option1{
+  float: right;
+  /* margin-right: 40px; */
+  /* right: 10px; */
+}
+.option2{
+  float: right;
+  /* margin-right: 50px; */
+}
+/*
+span:hover {
+  position: relative;
+  cursor: pointer;
+}
+
+span[title]:hover:after {
+   content: attr(title);
+   display: inline-block;
+   padding: 4px 8px;
+   position: absolute;
+   left: 0;
+   top: 110%;
+   white-space: nowrap;
+   z-index: 20;
+   background: black;
+   color: white;
+} */
+
+/* .title p{
+  color: rebeccapurple;
+  display: none;
+}
+
+.title:hover p{
+  color: #f70a21;
+  display: block;
+} */
+
+.titlePipe {
+  position: relative;
+  display: inline-block;
+}
+
+.titlePipe .textPipe {
+  visibility: hidden;
+  width: 55px;
+  top: 70%;
+  font-size: small;
+  left: 0;
+  background-color: #3d4d65;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 4px;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.titlePipe:hover .textPipe {
+  visibility: visible;
+}
+
+.titleList {
+  position: relative;
+  display: inline-block;
+}
+
+.titleList .textList {
+  visibility: hidden;
+  font-size: small;
+  width: 30px;
+  top: 70%;
+  left: 0;
+  background-color: #3d4d65;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 4px;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.titleList:hover .textList {
+  visibility: visible;
+}
+
+.titleComplete {
+  position: relative;
+  display: inline-block;
+}
+
+.titleComplete .textComplete {
+  visibility: hidden;
+  /* cursor: pointer; */
+  width: 65px;
+  top: 100%;
+  left: 1;
+  background-color: #3d4d65;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 4px;
+  position: absolute;
+  font-size: small;
+  /* z-index: 1; */
+}
+
+.titleComplete:hover .textComplete {
+  visibility: visible;
+}
+
+.titleDelete {
+  position: relative;
+  display: inline-block;
+}
+
+.titleDelete .textDelete {
+  visibility: hidden;
+  width: 50px;
+  top: 100%;
+  font-size: small;
+  left: 1;
+  background-color: #3d4d65;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 4px;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.titleDelete:hover .textDelete {
+  visibility: visible;
+}
